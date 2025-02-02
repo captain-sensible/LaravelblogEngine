@@ -72,7 +72,7 @@ protected $sendError;
 													$mail->Port = 587;
 													$mail->SMTPSecure = 'tls';        
 													$mail->SMTPAuth = true;
-														$mail->Username = "andybrookestar@gmail.com";
+														$mail->Username = "user@gmail.com";
 				                                    $mail->Password = "xxxxxxxxk";
 
 							                                	$mail->setFrom('user@gmail.com', 'webmaster ');
