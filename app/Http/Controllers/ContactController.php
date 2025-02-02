@@ -73,11 +73,11 @@ protected $sendError;
 													$mail->SMTPSecure = 'tls';        
 													$mail->SMTPAuth = true;
 														$mail->Username = "andybrookestar@gmail.com";
-				                                    $mail->Password = "fxzbcuhpxrltzixk";
+				                                    $mail->Password = "xxxxxxxxk";
 
-							                                	$mail->setFrom('andybrookestar@gmail.com', 'webmaster ');
+							                                	$mail->setFrom('user@gmail.com', 'webmaster ');
 							
-							$mail->addAddress('andybrookestar@yahoo.com', ' andy');
+							$mail->addAddress('user@yahoo.com', ' andy');
 							$mail->Subject = ' Message from web surfer    ';
 							$mail->Body = $this->totalMessage;
 							
